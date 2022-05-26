@@ -1,0 +1,3 @@
+/home/leonard/TIMP/hw3_/formatter_lib/_build/CMakeFiles/formatter.dir
+/home/leonard/TIMP/hw3_/formatter_lib/_build/CMakeFiles/edit_cache.dir
+/home/leonard/TIMP/hw3_/formatter_lib/_build/CMakeFiles/rebuild_cache.dir

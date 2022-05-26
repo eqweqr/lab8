@@ -1,0 +1,3 @@
+/home/leonard/TIMP/hw3_/hello_world_application/_build/CMakeFiles/hello_world_application.dir
+/home/leonard/TIMP/hw3_/hello_world_application/_build/CMakeFiles/edit_cache.dir
+/home/leonard/TIMP/hw3_/hello_world_application/_build/CMakeFiles/rebuild_cache.dir
