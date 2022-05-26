@@ -1,9 +1,11 @@
-cmake_minimum_required(VERSION 3.22)
-project(hw3)
 
-set(CMAKE_CXX_STANDART 11)
-set(CMAKE_CXX_STANDART_REQUIRED ON)
-
-add_library(hello_world_application hello_world.cpp)
-
+cmake_minimum_required(VERSION 3.4)
+project(lab07)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+include_directories("../formatter_lib")
 include_directories("../formatter_ex_lib")
+add_library(formatter_lib STATIC "../formatter_lib/formatter.cpp")
+add_library(formatter_ex_lib STATIC "../formatter_ex_lib/formatter_ex.cpp")
+add_executable(lab07 "hello_world.cpp")
+target_link_libraries(lab07 formatter_ex_lib formatter_lib)
